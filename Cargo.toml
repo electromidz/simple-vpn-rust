@@ -1,0 +1,10 @@
+[package]
+name = "simple-vpn-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+env_logger = "0.11.8"
+log = "0.4.27"
+tokio = { version = "1.47.1", features = ["full"] }
+tun = "0.8.4"
